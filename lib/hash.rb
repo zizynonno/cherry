@@ -24,3 +24,20 @@ currencies.each do |key_value|
   value = key_value[1]
   puts "#{key} : #{value}"
 end
+
+puts "キーや値に異なる値を混在させる"
+person = {
+  name: 'Alice',
+  age: 20,
+  friends: ['Bob','Carol'],
+  phones: {home: '1234-5678', mobile: "1111-2222"}
+}
+
+p person[:name]
+p person[:friends]
+puts person[:friends]
+p person[:phones][:home]
+
+puts "ハッシュを展開"
+a =  {list: 'Profile'}.merge(person)
+puts a
