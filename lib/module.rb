@@ -41,3 +41,4 @@ user = User.new
 user.name
 
 # product.log 'public?'
+
