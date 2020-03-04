@@ -1,3 +1,4 @@
+#yieldにブロックが渡されたかどうかはblock_given?メソッドで確認する。
 def greeting
   puts "good morning"
   if block_given?
