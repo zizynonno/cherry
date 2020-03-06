@@ -1,10 +1,10 @@
 def fizz_buzz(n)
   if n%15 == 0
-    'fizzbuzz'
+    'Fizz Buzz'
   elsif n%5 == 0
-    'buzz'
+    'Buzz'
   elsif n%3 == 0
-    'fizz'
+    'Fizz'
   else
     n.to_s
   end
